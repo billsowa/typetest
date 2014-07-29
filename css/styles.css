@@ -47,29 +47,34 @@ table {
     border-spacing: 0;
 }
 
-.slide-wrap {
+.word-clip {
     position: relative;
     left: 45%;
     margin-top: 200px;
     line-height: 2em;
+    width: 50%;
+    overflow: hidden;
 }
 
 .current-word {
-    display: inline-block;
     margin-right: 20px;
-    border: 3px solid #ccc;
     width: 50px;
     padding-left: 16px;
     height: 25px;
-    vertical-align: middle;
 }
 
 .prev-word {
     display: inline-block;
     width: 40px;
+    height: 25px;
     margin-right: 20px;
 }
 
-.slide {
+.word-wrap {
     word-spacing: 20px;
+    width: 13000px;
+}
+
+.word-wrap > div {
+    float: left;
 }
